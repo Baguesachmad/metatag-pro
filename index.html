@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MetaTag Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h2>MetaTag Pro Generator</h2>
+
+<input type="text" id="site" placeholder="Website Name">
+<input type="text" id="url" placeholder="Page URL">
+<input type="text" id="title" placeholder="Title (60 char)">
+<textarea id="desc" placeholder="Description (160 char)"></textarea>
+<input type="text" id="keywords" placeholder="Keywords">
+<input type="text" id="image" placeholder="Image URL">
+
+<button onclick="generate()">Generate</button>
+
+<pre id="output"></pre>
+<button onclick="copy()">Copy</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
